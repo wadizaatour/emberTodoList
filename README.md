@@ -1,3 +1,6 @@
+Application demo avec emberJS pour récupérer les TodoLists du backend ruby on rails
+
+
 # ember-front-final
 
 This README outlines the details of collaborating on this Ember application.
