@@ -7,6 +7,10 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+	this.route('todoL', function(){
+		this.route('todo_list',{path:'/:id'})
+	});
+	this.route('new', { path: '/new/:id' });
 });
 
 export default Router;
